@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "BtnClickViewController.h"
 
+
 @interface ViewController ()
 
 /*** 名称 **/
@@ -16,13 +17,15 @@
 
 @end
 
+
+
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
     _titlesArr = @[@"按钮弹出textVeiw"];
-    NSLog(@"github");
 }
 
 
