@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		425D90B1437535169A4914B9 /* Pods_IceToolBarClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF9B7648CF74B2234CBFD10 /* Pods_IceToolBarClass.framework */; };
+		C59D44ED1EA5AB920014D5C7 /* BtnClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D44EC1EA5AB920014D5C7 /* BtnClickViewController.m */; };
 		C5C509FD1E9E1F3E004B0AF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C509FC1E9E1F3E004B0AF6 /* main.m */; };
 		C5C50A001E9E1F3F004B0AF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C509FF1E9E1F3F004B0AF6 /* AppDelegate.m */; };
 		C5C50A031E9E1F3F004B0AF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C50A021E9E1F3F004B0AF6 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 		098C49A16793F7751590A0E5 /* Pods-IceToolBarClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceToolBarClass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IceToolBarClass/Pods-IceToolBarClass.debug.xcconfig"; sourceTree = "<group>"; };
 		7373514E30CAC95C4DB82BBE /* Pods-IceToolBarClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceToolBarClass.release.xcconfig"; path = "Pods/Target Support Files/Pods-IceToolBarClass/Pods-IceToolBarClass.release.xcconfig"; sourceTree = "<group>"; };
 		9AF9B7648CF74B2234CBFD10 /* Pods_IceToolBarClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IceToolBarClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59D44EB1EA5AB920014D5C7 /* BtnClickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnClickViewController.h; sourceTree = "<group>"; };
+		C59D44EC1EA5AB920014D5C7 /* BtnClickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnClickViewController.m; sourceTree = "<group>"; };
 		C5C509F81E9E1F3E004B0AF6 /* IceToolBarClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceToolBarClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C509FC1E9E1F3E004B0AF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5C509FE1E9E1F3F004B0AF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +132,8 @@
 				C5C509FF1E9E1F3F004B0AF6 /* AppDelegate.m */,
 				C5C50A011E9E1F3F004B0AF6 /* ViewController.h */,
 				C5C50A021E9E1F3F004B0AF6 /* ViewController.m */,
+				C59D44EB1EA5AB920014D5C7 /* BtnClickViewController.h */,
+				C59D44EC1EA5AB920014D5C7 /* BtnClickViewController.m */,
 				C5C50A041E9E1F3F004B0AF6 /* Main.storyboard */,
 				C5C50A071E9E1F3F004B0AF6 /* Assets.xcassets */,
 				C5C50A091E9E1F3F004B0AF6 /* LaunchScreen.storyboard */,
@@ -348,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59D44ED1EA5AB920014D5C7 /* BtnClickViewController.m in Sources */,
 				C5C50A031E9E1F3F004B0AF6 /* ViewController.m in Sources */,
 				C5C50A001E9E1F3F004B0AF6 /* AppDelegate.m in Sources */,
 				C5C509FD1E9E1F3E004B0AF6 /* main.m in Sources */,
@@ -582,6 +588,7 @@
 				C5C50A271E9E1F3F004B0AF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5C50A281E9E1F3F004B0AF6 /* Build configuration list for PBXNativeTarget "IceToolBarClassTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +597,7 @@
 				C5C50A2A1E9E1F3F004B0AF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5C50A2B1E9E1F3F004B0AF6 /* Build configuration list for PBXNativeTarget "IceToolBarClassUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +606,7 @@
 				C5C50A2D1E9E1F3F004B0AF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

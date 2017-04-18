@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "BtnClickViewController.h"
 
 @interface ViewController ()
+
+/*** 名称 **/
+@property (nonatomic, strong) NSArray *titlesArr;
 
 @end
 
@@ -17,16 +21,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    _titlesArr = @[@"按钮弹出textVeiw"];
     NSLog(@"github");
 }
 
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 2;
+    return _titlesArr.count;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell = [[UITableViewCell alloc] init];
+    static NSString *cellStr = @"UITableViewCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellStr];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellStr];
+    }
+    cell.textLabel.text = _titlesArr[indexPath.row];
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    switch (indexPath.row) {
+        case 0:
+            [self.navigationController pushViewController:[BtnClickViewController new] animated:YES];
+            break;
+            
+        default:
+            break;
+    }
 }
 
 

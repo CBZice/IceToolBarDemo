@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "010181EA2F7A9EB1D0D4735B435B385AAFDCE456",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4544075A8FB6B69B39C105F654BCC79BE8E13E5C" : 9223372036854775807,
+    "010181EA2F7A9EB1D0D4735B435B385AAFDCE456" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "021317BE-6AE9-43F3-8B78-07AA2202D387",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4544075A8FB6B69B39C105F654BCC79BE8E13E5C" : "",
+    "010181EA2F7A9EB1D0D4735B435B385AAFDCE456" : "IceToolBarDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IceToolBarClass",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IceToolBarClass\/IceToolBarClass.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CBZice\/IceToolBarDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "010181EA2F7A9EB1D0D4735B435B385AAFDCE456"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/iceze\/IceProjectFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4544075A8FB6B69B39C105F654BCC79BE8E13E5C"
+    }
+  ]
+}
