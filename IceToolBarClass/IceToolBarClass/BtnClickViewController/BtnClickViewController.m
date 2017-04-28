@@ -85,4 +85,8 @@ replacementText:(NSString *)text
     return YES;
 }
 
+-(void)viewWillDisappear:(BOOL)animated{
+    [commentsView resignFirstResponder];
+}
+
 @end

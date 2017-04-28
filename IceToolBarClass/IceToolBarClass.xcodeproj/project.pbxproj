@@ -8,7 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		425D90B1437535169A4914B9 /* Pods_IceToolBarClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF9B7648CF74B2234CBFD10 /* Pods_IceToolBarClass.framework */; };
-		C59D44ED1EA5AB920014D5C7 /* BtnClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D44EC1EA5AB920014D5C7 /* BtnClickViewController.m */; };
+		C5606C281EB2D27600E3019D /* BtnClickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5606C271EB2D27600E3019D /* BtnClickViewController.m */; };
+		C5606C2C1EB2D2AF00E3019D /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5606C2B1EB2D2AF00E3019D /* MyView.m */; };
+		C5606C2F1EB2D2D100E3019D /* BezierPathAndTouchEventVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5606C2E1EB2D2D100E3019D /* BezierPathAndTouchEventVC.m */; };
+		C5606C331EB2D6A300E3019D /* IceScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5606C321EB2D6A300E3019D /* IceScrollViewVC.m */; };
+		C5606C361EB2D6B100E3019D /* IceCirculationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5606C351EB2D6B100E3019D /* IceCirculationView.m */; };
+		C5606C3A1EB2DE4200E3019D /* IceImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5606C391EB2DE4200E3019D /* IceImageView.m */; };
+		C5606C3D1EB2DE5100E3019D /* IceImageViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5606C3C1EB2DE5100E3019D /* IceImageViewVC.m */; };
+		C5606C3F1EB2DEA400E3019D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5606C3E1EB2DEA400E3019D /* 1.jpg */; };
+		C5606C471EB2DF1100E3019D /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C5606C421EB2DF1100E3019D /* PopoverAction.m */; };
+		C5606C481EB2DF1100E3019D /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5606C441EB2DF1100E3019D /* PopoverView.m */; };
+		C5606C491EB2DF1100E3019D /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5606C461EB2DF1100E3019D /* PopoverViewCell.m */; };
+		C5606C4D1EB2DF4700E3019D /* PopoverViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5606C4C1EB2DF4700E3019D /* PopoverViewVC.m */; };
+		C5606C511EB2E3F400E3019D /* Course_More@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5606C501EB2E3F400E3019D /* Course_More@2x.png */; };
+		C5606C561EB2E47C00E3019D /* More_Delete_Course@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5606C521EB2E47C00E3019D /* More_Delete_Course@2x.png */; };
+		C5606C571EB2E47C00E3019D /* More_Edit_Message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5606C531EB2E47C00E3019D /* More_Edit_Message@2x.png */; };
+		C5606C581EB2E47C00E3019D /* More_Pay_Money@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5606C541EB2E47C00E3019D /* More_Pay_Money@2x.png */; };
+		C5606C591EB2E47C00E3019D /* More_Share_Course@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5606C551EB2E47C00E3019D /* More_Share_Course@2x.png */; };
 		C5C509FD1E9E1F3E004B0AF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C509FC1E9E1F3E004B0AF6 /* main.m */; };
 		C5C50A001E9E1F3F004B0AF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C509FF1E9E1F3F004B0AF6 /* AppDelegate.m */; };
 		C5C50A031E9E1F3F004B0AF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C50A021E9E1F3F004B0AF6 /* ViewController.m */; };
@@ -40,8 +56,34 @@
 		098C49A16793F7751590A0E5 /* Pods-IceToolBarClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceToolBarClass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IceToolBarClass/Pods-IceToolBarClass.debug.xcconfig"; sourceTree = "<group>"; };
 		7373514E30CAC95C4DB82BBE /* Pods-IceToolBarClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceToolBarClass.release.xcconfig"; path = "Pods/Target Support Files/Pods-IceToolBarClass/Pods-IceToolBarClass.release.xcconfig"; sourceTree = "<group>"; };
 		9AF9B7648CF74B2234CBFD10 /* Pods_IceToolBarClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IceToolBarClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C59D44EB1EA5AB920014D5C7 /* BtnClickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnClickViewController.h; sourceTree = "<group>"; };
-		C59D44EC1EA5AB920014D5C7 /* BtnClickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnClickViewController.m; sourceTree = "<group>"; };
+		C5606C261EB2D27600E3019D /* BtnClickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnClickViewController.h; sourceTree = "<group>"; };
+		C5606C271EB2D27600E3019D /* BtnClickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnClickViewController.m; sourceTree = "<group>"; };
+		C5606C2A1EB2D2AF00E3019D /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		C5606C2B1EB2D2AF00E3019D /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		C5606C2D1EB2D2D100E3019D /* BezierPathAndTouchEventVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathAndTouchEventVC.h; sourceTree = "<group>"; };
+		C5606C2E1EB2D2D100E3019D /* BezierPathAndTouchEventVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathAndTouchEventVC.m; sourceTree = "<group>"; };
+		C5606C311EB2D6A300E3019D /* IceScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IceScrollViewVC.h; sourceTree = "<group>"; };
+		C5606C321EB2D6A300E3019D /* IceScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IceScrollViewVC.m; sourceTree = "<group>"; };
+		C5606C341EB2D6B100E3019D /* IceCirculationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IceCirculationView.h; sourceTree = "<group>"; };
+		C5606C351EB2D6B100E3019D /* IceCirculationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IceCirculationView.m; sourceTree = "<group>"; };
+		C5606C381EB2DE4200E3019D /* IceImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IceImageView.h; sourceTree = "<group>"; };
+		C5606C391EB2DE4200E3019D /* IceImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IceImageView.m; sourceTree = "<group>"; };
+		C5606C3B1EB2DE5100E3019D /* IceImageViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IceImageViewVC.h; sourceTree = "<group>"; };
+		C5606C3C1EB2DE5100E3019D /* IceImageViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IceImageViewVC.m; sourceTree = "<group>"; };
+		C5606C3E1EB2DEA400E3019D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		C5606C411EB2DF1100E3019D /* PopoverAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverAction.h; sourceTree = "<group>"; };
+		C5606C421EB2DF1100E3019D /* PopoverAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverAction.m; sourceTree = "<group>"; };
+		C5606C431EB2DF1100E3019D /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
+		C5606C441EB2DF1100E3019D /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
+		C5606C451EB2DF1100E3019D /* PopoverViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewCell.h; sourceTree = "<group>"; };
+		C5606C461EB2DF1100E3019D /* PopoverViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewCell.m; sourceTree = "<group>"; };
+		C5606C4B1EB2DF4700E3019D /* PopoverViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewVC.h; sourceTree = "<group>"; };
+		C5606C4C1EB2DF4700E3019D /* PopoverViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewVC.m; sourceTree = "<group>"; };
+		C5606C501EB2E3F400E3019D /* Course_More@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Course_More@2x.png"; path = "../PopoverView/Course_More@2x.png"; sourceTree = "<group>"; };
+		C5606C521EB2E47C00E3019D /* More_Delete_Course@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "More_Delete_Course@2x.png"; sourceTree = "<group>"; };
+		C5606C531EB2E47C00E3019D /* More_Edit_Message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "More_Edit_Message@2x.png"; sourceTree = "<group>"; };
+		C5606C541EB2E47C00E3019D /* More_Pay_Money@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "More_Pay_Money@2x.png"; sourceTree = "<group>"; };
+		C5606C551EB2E47C00E3019D /* More_Share_Course@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "More_Share_Course@2x.png"; sourceTree = "<group>"; };
 		C59D44EE1EA5B06E0014D5C7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C5C509F81E9E1F3E004B0AF6 /* IceToolBarClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceToolBarClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C509FC1E9E1F3E004B0AF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +146,78 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C5606C251EB2D27600E3019D /* BtnClickViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5606C261EB2D27600E3019D /* BtnClickViewController.h */,
+				C5606C271EB2D27600E3019D /* BtnClickViewController.m */,
+			);
+			path = BtnClickViewController;
+			sourceTree = "<group>";
+		};
+		C5606C291EB2D2AF00E3019D /* BezierPathAndTouchEvent */ = {
+			isa = PBXGroup;
+			children = (
+				C5606C2A1EB2D2AF00E3019D /* MyView.h */,
+				C5606C2B1EB2D2AF00E3019D /* MyView.m */,
+				C5606C2D1EB2D2D100E3019D /* BezierPathAndTouchEventVC.h */,
+				C5606C2E1EB2D2D100E3019D /* BezierPathAndTouchEventVC.m */,
+			);
+			path = BezierPathAndTouchEvent;
+			sourceTree = "<group>";
+		};
+		C5606C301EB2D69300E3019D /* IceScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C5606C341EB2D6B100E3019D /* IceCirculationView.h */,
+				C5606C351EB2D6B100E3019D /* IceCirculationView.m */,
+				C5606C311EB2D6A300E3019D /* IceScrollViewVC.h */,
+				C5606C321EB2D6A300E3019D /* IceScrollViewVC.m */,
+			);
+			path = IceScrollView;
+			sourceTree = "<group>";
+		};
+		C5606C371EB2DE3D00E3019D /* IceImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C5606C3E1EB2DEA400E3019D /* 1.jpg */,
+				C5606C381EB2DE4200E3019D /* IceImageView.h */,
+				C5606C391EB2DE4200E3019D /* IceImageView.m */,
+				C5606C3B1EB2DE5100E3019D /* IceImageViewVC.h */,
+				C5606C3C1EB2DE5100E3019D /* IceImageViewVC.m */,
+			);
+			path = IceImageView;
+			sourceTree = "<group>";
+		};
+		C5606C401EB2DF1100E3019D /* PopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				C5606C411EB2DF1100E3019D /* PopoverAction.h */,
+				C5606C421EB2DF1100E3019D /* PopoverAction.m */,
+				C5606C431EB2DF1100E3019D /* PopoverView.h */,
+				C5606C441EB2DF1100E3019D /* PopoverView.m */,
+				C5606C451EB2DF1100E3019D /* PopoverViewCell.h */,
+				C5606C461EB2DF1100E3019D /* PopoverViewCell.m */,
+			);
+			name = PopoverView;
+			path = ../PopoverView;
+			sourceTree = "<group>";
+		};
+		C5606C4A1EB2DF3800E3019D /* PopoverViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				C5606C521EB2E47C00E3019D /* More_Delete_Course@2x.png */,
+				C5606C531EB2E47C00E3019D /* More_Edit_Message@2x.png */,
+				C5606C541EB2E47C00E3019D /* More_Pay_Money@2x.png */,
+				C5606C551EB2E47C00E3019D /* More_Share_Course@2x.png */,
+				C5606C501EB2E3F400E3019D /* Course_More@2x.png */,
+				C5606C401EB2DF1100E3019D /* PopoverView */,
+				C5606C4B1EB2DF4700E3019D /* PopoverViewVC.h */,
+				C5606C4C1EB2DF4700E3019D /* PopoverViewVC.m */,
+			);
+			path = PopoverViewVC;
+			sourceTree = "<group>";
+		};
 		C5C509EF1E9E1F3E004B0AF6 = {
 			isa = PBXGroup;
 			children = (
@@ -129,12 +243,15 @@
 		C5C509FA1E9E1F3E004B0AF6 /* IceToolBarClass */ = {
 			isa = PBXGroup;
 			children = (
+				C5606C4A1EB2DF3800E3019D /* PopoverViewVC */,
+				C5606C371EB2DE3D00E3019D /* IceImageView */,
+				C5606C301EB2D69300E3019D /* IceScrollView */,
+				C5606C291EB2D2AF00E3019D /* BezierPathAndTouchEvent */,
+				C5606C251EB2D27600E3019D /* BtnClickViewController */,
 				C5C509FE1E9E1F3F004B0AF6 /* AppDelegate.h */,
 				C5C509FF1E9E1F3F004B0AF6 /* AppDelegate.m */,
 				C5C50A011E9E1F3F004B0AF6 /* ViewController.h */,
 				C5C50A021E9E1F3F004B0AF6 /* ViewController.m */,
-				C59D44EB1EA5AB920014D5C7 /* BtnClickViewController.h */,
-				C59D44EC1EA5AB920014D5C7 /* BtnClickViewController.m */,
 				C5C50A041E9E1F3F004B0AF6 /* Main.storyboard */,
 				C5C50A071E9E1F3F004B0AF6 /* Assets.xcassets */,
 				C5C50A091E9E1F3F004B0AF6 /* LaunchScreen.storyboard */,
@@ -241,6 +358,7 @@
 				TargetAttributes = {
 					C5C509F71E9E1F3E004B0AF6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ESVJPC7X8J;
 						ProvisioningStyle = Automatic;
 					};
 					C5C50A101E9E1F3F004B0AF6 = {
@@ -280,9 +398,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5606C591EB2E47C00E3019D /* More_Share_Course@2x.png in Resources */,
 				C5C50A0B1E9E1F3F004B0AF6 /* LaunchScreen.storyboard in Resources */,
+				C5606C571EB2E47C00E3019D /* More_Edit_Message@2x.png in Resources */,
+				C5606C3F1EB2DEA400E3019D /* 1.jpg in Resources */,
 				C5C50A081E9E1F3F004B0AF6 /* Assets.xcassets in Resources */,
+				C5606C581EB2E47C00E3019D /* More_Pay_Money@2x.png in Resources */,
 				C5C50A061E9E1F3F004B0AF6 /* Main.storyboard in Resources */,
+				C5606C511EB2E3F400E3019D /* Course_More@2x.png in Resources */,
+				C5606C561EB2E47C00E3019D /* More_Delete_Course@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,10 +479,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C59D44ED1EA5AB920014D5C7 /* BtnClickViewController.m in Sources */,
+				C5606C491EB2DF1100E3019D /* PopoverViewCell.m in Sources */,
+				C5606C361EB2D6B100E3019D /* IceCirculationView.m in Sources */,
+				C5606C331EB2D6A300E3019D /* IceScrollViewVC.m in Sources */,
+				C5606C281EB2D27600E3019D /* BtnClickViewController.m in Sources */,
+				C5606C3D1EB2DE5100E3019D /* IceImageViewVC.m in Sources */,
 				C5C50A031E9E1F3F004B0AF6 /* ViewController.m in Sources */,
 				C5C50A001E9E1F3F004B0AF6 /* AppDelegate.m in Sources */,
+				C5606C2F1EB2D2D100E3019D /* BezierPathAndTouchEventVC.m in Sources */,
+				C5606C3A1EB2DE4200E3019D /* IceImageView.m in Sources */,
 				C5C509FD1E9E1F3E004B0AF6 /* main.m in Sources */,
+				C5606C471EB2DF1100E3019D /* PopoverAction.m in Sources */,
+				C5606C481EB2DF1100E3019D /* PopoverView.m in Sources */,
+				C5606C2C1EB2D2AF00E3019D /* MyView.m in Sources */,
+				C5606C4D1EB2DF4700E3019D /* PopoverViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,8 +640,10 @@
 			baseConfigurationReference = 098C49A16793F7751590A0E5 /* Pods-IceToolBarClass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESVJPC7X8J;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/IceToolBarClass/PrefixHeader.pch";
 				INFOPLIST_FILE = IceToolBarClass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cooptec.www.IceToolBarClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,8 +655,10 @@
 			baseConfigurationReference = 7373514E30CAC95C4DB82BBE /* Pods-IceToolBarClass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESVJPC7X8J;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/IceToolBarClass/PrefixHeader.pch";
 				INFOPLIST_FILE = IceToolBarClass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cooptec.www.IceToolBarClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";

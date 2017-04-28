@@ -2,5 +2,6 @@ platform :ios,’7.0’
 use_frameworks!
 target 'IceToolBarClass’ do
 pod 'SVProgressHUD','~>2.1.2'
+pod 'SDWebImage', '~>4.0.0'
 end
 

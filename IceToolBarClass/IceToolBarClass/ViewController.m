@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 #import "BtnClickViewController.h"
+#import "BezierPathAndTouchEventVC.h"
+#import "IceScrollViewVC.h"
+#import "IceImageViewVC.h"
+#import "PopoverViewVC.h"
 
 
 @interface ViewController ()
@@ -25,7 +29,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    _titlesArr = @[@"按钮弹出textVeiw"];
+    _titlesArr = @[@"按钮弹出textVeiw",@"贝塞尔曲线绘制",@"轮播图",@"点击图片放大",@"菜单弹框"];
 }
 
 
@@ -47,7 +51,19 @@
         case 0:
             [self.navigationController pushViewController:[BtnClickViewController new] animated:YES];
             break;
+        case 1:
+            [self.navigationController pushViewController:[BezierPathAndTouchEventVC new] animated:YES];
+            break;
+        case 2:
+            [self.navigationController pushViewController:[IceScrollViewVC new] animated:YES];
+            break;
+        case 3:
+            [self.navigationController pushViewController:[IceImageViewVC new] animated:YES];
+            break;
+        case 4:
+            [self.navigationController pushViewController:[PopoverViewVC new] animated:YES];
             
+            break;
         default:
             break;
     }
